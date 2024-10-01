@@ -1,0 +1,44 @@
+﻿name: .NET Selenium Tests
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    # Step 1: Checkout code
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Step 2: Setup .NET environment
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x'  # Use .NET 8.0
+
+    # Step 3: Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # Step 4: Build the project
+    - name: Build
+      run: dotnet build --configuration Release
+
+    # Step 5: Run tests and check JSON modifications
+    - name: Run Tests
+      run: dotnet test --logger "trx;LogFileName=TestResults.trx"
+
+    # Step 6: Display the updated caching file (if updated)
+    - name: Show updated caching data
+      run: cat cachingData.json
+
+    # Step 7: (Optional) Push updated JSON file back to the repo
+    - name: Commit and push changes
+      if: always()
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add cachingData.json
+        git commit -m "Update caching data after test run"
+        git push origin main

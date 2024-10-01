@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagentoSelenuimAutomationDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63f29f3affda13835589eed4a663f8c9981d67d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagentoSelenuimAutomationDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagentoSelenuimAutomationDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
