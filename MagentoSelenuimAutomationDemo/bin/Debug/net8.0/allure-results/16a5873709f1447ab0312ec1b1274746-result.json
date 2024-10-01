@@ -1,0 +1,180 @@
+{
+  "uuid": "174ed031-6f8f-4c1f-a47c-cc603882e5cf",
+  "historyId": "d561dcb224316285463d63899c01be6c",
+  "testCaseId": "3cb91af865c81e578bb6ff7ca8234271",
+  "fullName": "MagentoSelenuimAutomationDemo:MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest.Test2()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I6S3V9F"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "MagentoSelenuimAutomationDemo.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "magentoSmokeTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    },
+    {
+      "name": "tag",
+      "value": "Magento"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Magento Demo Site Testing, header navigation links (clickable links to outside url's"
+    }
+  ],
+  "links": [],
+  "name": "Test2",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/magento-2-extensions/ equlas to url extracted https://www.mageplaza.com/magento-2-extensions/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777121050,
+      "stop": 1727777121050
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/apps/ equlas to url extracted https://www.mageplaza.com/apps/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777122296,
+      "stop": 1727777122296
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/services/ equlas to url extracted https://www.mageplaza.com/services/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777123892,
+      "stop": 1727777123892
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/deals/ equlas to url extracted https://www.mageplaza.com/deals/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777124710,
+      "stop": 1727777124710
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/blog/ equlas to url extracted https://www.mageplaza.com/blog/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777125577,
+      "stop": 1727777125577
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://www.mageplaza.com/support/ equlas to url extracted https://www.mageplaza.com/support/"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777126416,
+      "stop": 1727777126416
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 2, url compareson: from configuration https://dashboard.mageplaza.com/customer/account/login equlas to url extracted https://dashboard.mageplaza.com/customer/account/login"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777131893,
+      "stop": 1727777131893
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "0c2a10a3-260d-4600-999c-db76cba5afac-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1727777109008,
+  "stop": 1727777132074
+}

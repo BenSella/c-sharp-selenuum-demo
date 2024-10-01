@@ -1,0 +1,61 @@
+{
+  "uuid": "5050adf0-6a82-4db5-840a-6f81ebc46e2b",
+  "historyId": "ed60498cbcb07051ec0654ea9cccf9ad",
+  "testCaseId": "0b017b75d8da6cc300fe7add89c1ac93",
+  "fullName": "MagentoSelenuimAutomationDemo:MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest.Test5()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I6S3V9F"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "MagentoSelenuimAutomationDemo.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test5"
+    },
+    {
+      "name": "testClass",
+      "value": "magentoSmokeTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    },
+    {
+      "name": "tag",
+      "value": "Magento"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Magento Demo Site Testing, logOut"
+    }
+  ],
+  "links": [],
+  "name": "Test5",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727777171900,
+  "stop": 1727777190507
+}

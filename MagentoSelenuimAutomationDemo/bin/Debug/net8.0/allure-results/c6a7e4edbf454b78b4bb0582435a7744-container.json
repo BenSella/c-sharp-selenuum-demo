@@ -1,0 +1,16 @@
+{
+  "uuid": "b188c117-a452-40d5-8d1f-04c7feba094d",
+  "name": "MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest",
+  "children": [
+    "f8e15b65-d265-4a48-9aa5-cb56f7b7c981",
+    "174ed031-6f8f-4c1f-a47c-cc603882e5cf",
+    "ce8d139d-cfc8-4ea4-894a-6d1c68b34fda",
+    "659a1342-1302-458f-be5c-d10710f37cf9",
+    "5050adf0-6a82-4db5-840a-6f81ebc46e2b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727777107000,
+  "stop": 1727777190509
+}

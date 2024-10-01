@@ -1,0 +1,6 @@
+Starting Allure Step: Test: IWeb Element element not found with status: broken
+Stopped Allure Step: Test: IWeb Element element not found
+Starting Allure Step: Test: IWeb Element element found with status: passed
+Stopped Allure Step: Test: IWeb Element element found
+Starting Allure Step: Test: IWeb Element element found with status: passed
+Stopped Allure Step: Test: IWeb Element element found

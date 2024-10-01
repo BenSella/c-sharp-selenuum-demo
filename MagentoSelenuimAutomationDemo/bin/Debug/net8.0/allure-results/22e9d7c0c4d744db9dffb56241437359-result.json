@@ -1,0 +1,129 @@
+{
+  "uuid": "ce8d139d-cfc8-4ea4-894a-6d1c68b34fda",
+  "historyId": "af8f1a006c477f34d8f22a821d87498f",
+  "testCaseId": "edeba7973c8f2859f443c0cda8de22d6",
+  "fullName": "MagentoSelenuimAutomationDemo:MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest.Test3()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I6S3V9F"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "MagentoSelenuimAutomationDemo.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test3"
+    },
+    {
+      "name": "testClass",
+      "value": "magentoSmokeTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    },
+    {
+      "name": "tag",
+      "value": "Magento"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Magento Demo Site Testing, login/ register testing"
+    }
+  ],
+  "links": [],
+  "name": "Test3",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "We can't save the customer.",
+    "trace": "   at MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest.Test3() in C:\\Development\\VisualStudio\\MagentoSelenuimAutomationDemo\\MagentoSelenuimAutomationDemo\\Tests\\MagentoSmokeTest.cs:line 222\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test: IWeb Element element not found",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 3 failure: error login Messege"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot on Failure",
+          "source": "a45d71b1-8541-4c21-9050-1ee0a6edd993-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1727777151934,
+      "stop": 1727777151941
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 3 : given user + family namme: Ben Sella match data extracted from site: bensella+automatinTest21@gmail.com."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777152937,
+      "stop": 1727777152937
+    },
+    {
+      "name": "Test: IWeb Element element found",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Test 3 : given mail bensella+automatinTest21@gmail.com match data extracted from site: bensella+automatinTest21@gmail.com."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1727777152938,
+      "stop": 1727777152938
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "e1be2f0e-2a85-4dc5-8617-2ee36e8f3bf5-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1727777132076,
+  "stop": 1727777153059
+}

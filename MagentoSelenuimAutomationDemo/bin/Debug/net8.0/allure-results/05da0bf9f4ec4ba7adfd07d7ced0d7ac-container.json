@@ -1,0 +1,12 @@
+{
+  "uuid": "ea51b268-32c8-4bb3-aabd-11bc7c9b14d9",
+  "name": "MagentoSelenuimAutomationDemo.Tests.magentoSmokeTest.Test5",
+  "children": [
+    "5050adf0-6a82-4db5-840a-6f81ebc46e2b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727777171900,
+  "stop": 1727777190508
+}
