@@ -15,11 +15,11 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0.x'  # Use .NET 8.0
+        dotnet-version: '8.0.x'
 
     # Step 3: Restore dependencies
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore --source "https://api.nuget.org/v3/index.json" --source "https://github.com/BenSella/c-sharp-selenuum-alure-solution/tree/main/SeleniumAutomationLibrary/bin/Debug"
 
     # Step 4: Build the project
     - name: Build
@@ -37,10 +37,10 @@ jobs:
     - name: Commit and push changes
       if: always()
       env:
-        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add MagentoSelenuimAutomationDemo/cachingData.json
         git commit -m "Update caching data after test run"
-        git push https://github-actions:${ACTIONS_PAT}@github.com/BenSella/c-sharp-selenuum-demo.git
+        git push https://github-actions:${GITHUB_TOKEN}@github.com/BenSella/c-sharp-selenuum-alure-solution.git
