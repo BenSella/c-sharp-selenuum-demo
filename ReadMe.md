@@ -34,6 +34,7 @@ Page Factory Classes (LogInPage.cs, MegentoHomePage.cs, and RegisterPage.cs): Th
 LogInPage.cs: Contains elements and methods related to the login process.
 MegentoHomePage.cs: Manages interactions on the Magento homepage.
 RegisterPage.cs: Handles user registration elements such as name, email, and password fields.
+(email with each new registration will fill a new email address from cache)
 CachingHelper.cs: A helper utility for managing and updating cached data such as user registration email numbers and other frequently accessed information.
 
 Configuration Files (appsettings.json and cachingData.json): These files store configuration data, such as URLs, user credentials, and caching information. The tests retrieve and use these configurations dynamically.
