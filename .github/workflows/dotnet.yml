@@ -1,4 +1,4 @@
-﻿name: .NET Selenium Tests
+name: .NET Selenium Tests
 
 on: [push, pull_request]
 
@@ -31,14 +31,16 @@ jobs:
 
     # Step 6: Display the updated caching file (if updated)
     - name: Show updated caching data
-      run: cat cachingData.json
+      run: cat MagentoSelenuimAutomationDemo/cachingData.json
 
     # Step 7: (Optional) Push updated JSON file back to the repo
     - name: Commit and push changes
       if: always()
+      env:
+        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add cachingData.json
+        git add MagentoSelenuimAutomationDemo/cachingData.json
         git commit -m "Update caching data after test run"
-        git push origin main
+        git push https://github-actions:${ACTIONS_PAT}@github.com/BenSella/c-sharp-selenuum-demo.git
