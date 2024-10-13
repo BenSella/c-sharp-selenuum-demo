@@ -1,6 +1,11 @@
 Project: Magento Selenium Automation Demo (using my Selenium/Allure Nugget Package)
 This project is a Selenium-based automation test suite written in C# targeting a Magento demo website. The primary purpose of the project is to verify the functionality and UI elements of various pages on the Magento site, including login, registration, and navigation. The suite also includes configurations for caching and Allure reports integration to ensure detailed logging and tracking of test results.
 
+##You-tube links
+##smoke test:
+https://youtu.be/qw1nb3ODEtA?si=mlwi9QaDhs5Sz6T7
+##allure report:
+https://www.youtube.com/watch?v=QNwfTVNXhIA
 
 ## Project Structure
 ```bash
